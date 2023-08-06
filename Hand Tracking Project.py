@@ -18,7 +18,7 @@ cap.set(4, height)
 imgCanvas = np.zeros((height, width, 3), np.uint8)
 
 # Getting all header images in a list
-folderPath = 'C:\Users\lalit\OneDrive\Desktop\Painter using python\New folder\Header'
+folderPath = 'headerpath'
 myList = os.listdir(folderPath)
 overlayList = []
 for imPath in myList:
